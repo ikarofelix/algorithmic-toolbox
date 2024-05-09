@@ -9,9 +9,8 @@ def max_dot_product(first_sequence, second_sequence):
 
         del first_sequence[maxFirstIndex]
         del second_sequence[maxSecondIndex]
-        
-    return max_product
 
+    return max_product
 
 if __name__ == '__main__':
     n = int(input())
